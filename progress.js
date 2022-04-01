@@ -72,6 +72,7 @@ class CircularProgress {
   }
 
   set value(value) {
+    value = Math.min(Math.max(value, 0), 100);
     if (this._value === value) return;
     this._value = value;
     this._deps.value.forEach(invoke);
