@@ -74,6 +74,7 @@ body {
   appearance: none;
   width: 2.875rem;
   height: 1.75rem;
+  border: none;
   border-radius: 2rem;
   background: lightgray;
   transition: all 0.4s;
