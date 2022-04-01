@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ozon</title>
+    <link href="progress.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <script defer src="progress.js"></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <div id="progress" class="circular-progress"></div>
+      <div class="controls">
+        <label class="label">
+          <input
+            id="value-input"
+            class="input"
+            type="number"
+            min="0"
+            max="100"
+            value="0"
+          />
+          Value
+        </label>
+        <label class="label">
+          <input id="animate-checkbox" class="switch" type="checkbox" />
+          Animate
+        </label>
+        <label id="hidden" class="label">
+          <input id="hide-checkbox" class="switch" type="checkbox" />
+          Hide
+        </label>
+      </div>
+    </main>
+  </body>
+</html>
